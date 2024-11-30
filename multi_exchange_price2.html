@@ -484,7 +484,7 @@
                 }
                 
                 showLoading();
-                const response = await fetch(`http://43.153.135.175:28768/api/check_token?token=${symbol}&password=BAOFUmiyao`);
+                const response = await fetch(`http://jb.hardcode.wiki:28768/api/check_token?token=btc&password=BAOFUmiyao`);
                 const symbolData = await response.json();
                 console.log(symbolData);
                 const symbolMap = {};
